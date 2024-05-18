@@ -1,9 +1,9 @@
-from crewai import Agent
+from crewai import Agent # type: ignore
 #from langchain_openai import ChatOpenAI
-from langchain_groq import ChatGroq  # Import Groq client
-from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq  # type: ignore # Import Groq client
+from langchain_openai import ChatOpenAI # type: ignore
 import os
-from crewai_tools import SerperDevTool,WebsiteSearchTool, ScrapeWebsiteTool 
+from crewai_tools import SerperDevTool,WebsiteSearchTool, ScrapeWebsiteTool  # type: ignore
 
 
 

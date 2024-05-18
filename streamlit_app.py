@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st # type: ignore
 from main import ResearchCrew  # Import the ResearchCrew class from main.py
 import os
 

@@ -1,6 +1,4 @@
-from crewai import Task
-
-from crewai import Task
+from crewai import Task # type: ignore
 
 class ResearchCrewTasks:
 

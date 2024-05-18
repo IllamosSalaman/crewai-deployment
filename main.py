@@ -1,6 +1,6 @@
 import os
-from decouple import config
-from crewai import Crew, Process
+from decouple import config # type: ignore
+from crewai import Crew, Process # type: ignore
 from textwrap import dedent
 from agents import ResearchCrewAgents
 from tasks import ResearchCrewTasks
